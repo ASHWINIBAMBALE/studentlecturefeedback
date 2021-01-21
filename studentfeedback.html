@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student feedback</title>
+</head>
+<body style="background-image: url(https://www.gse.harvard.edu/sites/default/files//banner/1500x750_studentfeedback.jpg);background-repeat: no-repeat;">
+<form action="https://ashwinibambale.github.io/studentfeedback/sf1.html">
+	<div align="center">
+		<h1>Student feedback form of online lecture</h1>
+		<hr>
+		<label for="fname"><b>First Name:</b></label>
+		<input type="text" id="fname" name="fname" autocomplete="off"><br><br><br>
+		<label for="dep"><b> Enter your department:</b></label>
+		<input type="text" id="dep" name="dep" autocomplete="on"><br><br><br>
+		<label for="Year"><b>Choose a year:</b></label>
+		<select id="Year" name="Year">
+			
+			<option value="First Year" >First Year</option>
+			<option value="Second Year" >Second Year</option>
+			<option value="Third Year" >Third Year</option>
+			<option value="Fourth Year" >Fourth Year</option>
+
+
+
+
+
+		</select>
+		<br><br><br>
+		<label for="Tfeedback"><b>Feedback: </b></label>
+		<textarea name="Tfeedback" cols="30" rows="4"></textarea><br> <br>
+		<b>Rate:</b>
+   		
+   		<input type="radio" id="excellent" name="Rate" value="excellent">
+   		<label for="excellent">Excellent</label>
+   	
+   		<input type="radio" id="Good" name="Rate" value="Good">
+ 		<label for="Good">Good</label>
+
+ 		<input type="radio" id="average" name="Rate" value="average">
+ 		<label for="average">Average</label>
+
+		<input type="radio" id="Poor" name="Rate" value="Poor">
+ 		<label for="Poor">Poor</label><br>
+ 		<b> Pattern of exam:</b> 
+ 		<input type="checkbox" id="mcq" value="mcq">
+ 		<label for="mcq">MCQ</label>
+ 		<input type="checkbox" id="subjective" value="subjective">
+ 		<label for="subjective">subjective</label><br><br>
+ 		<input type="submit" name="Submit">
+
+	</div>
+</form>
+</body>
+</html>
